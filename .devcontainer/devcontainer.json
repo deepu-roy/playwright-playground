@@ -1,6 +1,6 @@
 {
-    "service": "dev",
-    "dockerComposeFile": "docker-compose.yml",
+    "name": "Playwright Testing",
+    "image": "mcr.microsoft.com/playwright:v1.36.0-jammy",
     "forwardPorts": [8080],
-    "workspaceFolder": "workspaces/cypress-playground"
+    "workspaceFolder": "./playwright-playground"
   }
