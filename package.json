@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx playwright test --headed",
     "debug":"npx playwright test --debug",
-    "install-browser":"npx playwright install chrome"
+    "browser":"npx playwright install chrome"
   },
   "repository": {
     "type": "git",
